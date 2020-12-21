@@ -15933,6 +15933,215 @@ nav > img {
   padding-bottom: 12px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+  #titreheader h1 {
+    font-size: 30px;
+  }
+  #titreheader h1 span {
+    font-size: 40px;
+  }
+}
+
+#sectionun {
+  background-image: url("../img/main_bg.jpg");
+  max-width: 100vw;
+  padding-bottom: 70px;
+}
+
+#decoun {
+  height: 10px;
+  display: flex;
+  background-image: url("../img/bottom_decoration_img.png");
+  background-repeat: repeat-x;
+  background-color: #242424;
+}
+
+#divsectionun {
+  position: relative;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#redtopleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#redtopright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#redbottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#redbottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#divourstorytitle {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#divourstorytitle img {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+#divourstorytitle h2 {
+  font-family: 'courgette';
+  font-size: 35px;
+}
+
+#divourstorytitle h2 span {
+  font-size: 45px;
+  color: #972d2d;
+}
+
+#divourstorytitle p {
+  font-family: 'ubunturegular';
+}
+
+#divourmenu {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#divourmenu img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#divourmenu h2 {
+  font-family: 'courgette';
+  font-size: 35px;
+}
+
+#divourmenu h2 span {
+  font-size: 45px;
+  color: #972d2d;
+}
+
+#menu {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+}
+
+#iconmenu {
+  font-size: 45px;
+  text-align: center;
+  color: #525252;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.h3menu {
+  color: black;
+  font-family: 'courgette';
+}
+
+#menuleft {
+  text-align: center;
+  background-color: white;
+}
+
+#menuleft:hover {
+  border-right: solid 7px #972d2d;
+}
+
+.imgmenu {
+  border-radius: 50%;
+  border: solid 5px #d6d5d5;
+  width: 80%;
+}
+
+.h5menu {
+  font-family: 'ubuntubold';
+}
+
+.menuprice {
+  background-color: #e0dfdf;
+  color: #972d2d;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menuelement {
+  border-bottom: solid 3px #d6d5d5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#decomenulast {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#sectiondeux {
+  background-image: url("../img/team_background.jpg");
+}
+
+#divmeet {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: white;
+}
+
+#divmeet img {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+#divmeet h2 {
+  font-family: 'courgette';
+  font-size: 35px;
+}
+
+#divmeet h2 span {
+  font-size: 45px;
+  color: #972d2d;
+}
+
+#chef {
+  padding-bottom: 30px;
+}
+
+#chef img {
+  text-align: center;
+}
+
+#chef p {
+  border-top: solid 2px #d6d5d5;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: 'ubunturegular';
