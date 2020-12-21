@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "ubunturegular";
+  src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "courgette";
+  src: url("../font/Courgette/Courgette-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ubuntubold";
+  src: url("../font/Ubuntu/Ubuntu-Bold.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -15771,4 +15786,154 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.divlink {
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.divlink a {
+  text-decoration: none;
+  color: white;
+}
+
+#linksleft {
+  margin-right: 50px;
+}
+
+#linksright {
+  margin-left: 50px;
+}
+
+#linksleft > .divlink:hover {
+  background-color: #972d2d;
+}
+
+#linksright > .divlink:hover {
+  background-color: #972d2d;
+}
+
+nav > img {
+  height: 80%;
+}
+
+#carouselresize {
+  height: 100vh;
+}
+
+#carouselresize div {
+  background-color: black;
+}
+
+#carouselresize div img {
+  opacity: 0.25;
+}
+
+#imgcarouselresize {
+  display: block;
+  height: auto;
+  line-height: 1;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+  z-index: auto;
+}
+
+#headercenter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titreheader {
+  color: white;
+  font-family: 'courgette';
+  text-align: center;
+}
+
+#titreheader h1 {
+  font-size: 55px;
+}
+
+#occasion {
+  font-size: 75px;
+}
+
+#taste {
+  font-size: 75px;
+  color: #972d2d;
+}
+
+#makes {
+  font-size: 75px;
+}
+
+#remember {
+  font-size: 75px;
+}
+
+#deuxboutons {
+  margin-top: 30px;
+  display: flex;
+}
+
+#deuxboutons div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#purchasebouton {
+  background-color: white;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#learnmorebouton {
+  background-color: #972d2d;
+  color: white;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: 'ubunturegular';
 }
