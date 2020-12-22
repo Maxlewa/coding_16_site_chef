@@ -16268,82 +16268,36 @@ nav > img {
   margin-bottom: 20px;
 }
 
-#formulaire #rowone {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+.resInput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-#formulaire #rowone #rowonecolone {
-  padding-right: 20px;
+.resInput input {
+  width: 48%;
+  border-radius: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  margin-bottom: 10px;
 }
 
-#formulaire #rowone #rowonecoltwo {
-  padding-left: 20px;
+.resInput select {
+  width: 48%;
+  border-radius: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  margin-bottom: 10px;
 }
 
-#formulaire #rowtwo {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+.resInput #inputGroupSelect02 {
+  height: 54px;
 }
 
-#formulaire #rowtwo #rowtwocolone {
-  padding-right: 20px;
-}
-
-#formulaire #rowtwo #rowtwocoltwo {
-  padding-left: 20px;
-}
-
-#formulaire #rowthree {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-#formulaire #rowthree #rowthreecolone {
-  padding-right: 20px;
-}
-
-#formulaire #rowthree #rowthreecoltwo {
-  padding-left: 20px;
-}
-
-#formulaire #rowfour {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-#formulaire #rowfour #rowfourcolone {
-  padding-right: 20px;
-}
-
-#formulaire #rowfour #rowfourcoltwo {
-  padding-left: 20px;
-}
-
-#inputEmail4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-radius: 20px;
-}
-
-#inputPassword4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-radius: 20px;
-}
-
-#inputState {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-radius: 20px;
+.resInput #inputGroupSelect03 {
+  height: 54px;
 }
 
 #blogposts {
