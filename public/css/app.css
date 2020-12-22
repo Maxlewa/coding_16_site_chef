@@ -15935,28 +15935,7 @@ nav img {
   border: 0px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  nav {
-    display: none;
-  }
-  #titreheader h1 {
-    font-size: 30px;
-  }
-  #titreheader h1 span {
-    font-size: 40px;
-  }
-  #carouselresize {
-    height: 30vh;
-  }
-  #headercenter {
-    bottom: 750px;
-  }
-  #deuxboutons {
-    margin-top: 10px;
-  }
-}
-
-@media screen and (min-width: 375px) and (max-width: 812px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   nav {
     display: none;
   }
@@ -15988,6 +15967,27 @@ nav img {
     padding-right: 15px;
     padding-top: 9px;
     padding-bottom: 9px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+  #titreheader h1 {
+    font-size: 30px;
+  }
+  #titreheader h1 span {
+    font-size: 40px;
+  }
+  #carouselresize {
+    height: 30vh;
+  }
+  #headercenter {
+    bottom: 750px;
+  }
+  #deuxboutons {
+    margin-top: 10px;
   }
 }
 
@@ -16144,39 +16144,7 @@ nav img {
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  #divourstorytitle {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  #divourstorytitle img {
-    margin: 0 auto;
-    width: 90%;
-  }
-  #divourmenu {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  #divourmenu img {
-    margin: 0 auto;
-    width: 90%;
-  }
-  #menu div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  #menuelement div {
-    padding-bottom: 10px;
-  }
-  .imgmenu {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (min-width: 375px) and (max-width: 812px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   #divourstorytitle {
     padding-left: 15px;
     padding-right: 15px;
@@ -16226,6 +16194,41 @@ nav img {
   #redbottomright img {
     height: 60px;
   }
+  #decomenulast img {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #divourstorytitle {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #divourstorytitle img {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #divourmenu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #divourmenu img {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #menu div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #menuelement div {
+    padding-bottom: 10px;
+  }
+  .imgmenu {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 }
 
 #sectiondeux {
@@ -16272,22 +16275,7 @@ nav img {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  #divmeet {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-  #divmeet img {
-    width: 90%;
-  }
-  #chef img {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 375px) and (max-width: 812px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   #divmeet {
     padding-left: 20px;
     padding-right: 20px;
@@ -16303,6 +16291,21 @@ nav img {
   #chef p {
     margin-left: 30px;
     margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #divmeet {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #divmeet img {
+    width: 90%;
+  }
+  #chef img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -16474,6 +16477,11 @@ nav img {
   margin-left: 120px;
 }
 
+#blogposttwo {
+  position: relative;
+  margin-right: 120px;
+}
+
 #blogelementone img {
   border-radius: 20px;
   border: #d6d5d5 solid 7px;
@@ -16504,16 +16512,6 @@ nav img {
 
 #blogredone h4 span {
   font-size: 30px;
-}
-
-#blogposttwo {
-  position: relative;
-  margin-right: 120px;
-}
-
-#blogposttwo #blogelementwo img {
-  border-radius: 20px;
-  border: #d6d5d5 solid 7px;
 }
 
 #blogredtwo {
@@ -16577,6 +16575,128 @@ nav img {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  #divbooktable {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #divbooktable img {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  #divourblog {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #divourblog img {
+    width: 90%;
+  }
+  #blogposts {
+    display: flex;
+    flex-direction: column;
+  }
+  #blogpostone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  #blogelementone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #blogelementone img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #blogposttwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #blogelementtwo {
+    display: flex;
+    flex-direction: column;
+  }
+  #blogelementtwo img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #blogredone {
+    padding-right: 5px;
+    top: 160px;
+    width: 280px;
+    left: 30px;
+    right: 30px;
+  }
+  #blogredone h4 {
+    font-size: 14px;
+  }
+  #blogredone h4 span {
+    font-size: 16px;
+  }
+  #blogredtwo {
+    padding-right: 5px;
+    top: 160px;
+    width: 280px;
+    left: 30px;
+    right: 30px;
+  }
+  #blogredtwo h4 {
+    font-size: 14px;
+  }
+  #blogredtwo h4 span {
+    font-size: 16px;
+  }
+  #divform {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #divform div h4 {
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #divform div span {
+    font-size: 25px;
+  }
+  #divsectiontrois {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  #blacktopleft img {
+    height: 60px;
+  }
+  #blacktopright img {
+    height: 60px;
+  }
+  #blackbottomleft img {
+    height: 60px;
+  }
+  #blackbottomright img {
+    height: 60px;
+  }
+  .resInput {
+    justify-content: center;
+  }
+  .resInput input {
+    width: 92%;
+  }
+  .resInput select {
+    width: 92%;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #divbooktable {
     padding-left: 100px;
@@ -16608,6 +16728,10 @@ nav img {
     display: flex;
     flex-direction: column;
   }
+  #blogelementone img {
+    width: 90%;
+    margin: 0 auto;
+  }
   #blogposttwo {
     display: flex;
     flex-direction: column;
@@ -16618,6 +16742,10 @@ nav img {
   #blogelementtwo {
     display: flex;
     flex-direction: column;
+  }
+  #blogelementtwo img {
+    width: 90%;
+    margin: 0 auto;
   }
   #blogredone h4 {
     font-size: 18px;
@@ -16636,6 +16764,33 @@ nav img {
     padding-right: 40px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+  #divform div h4 {
+    font-size: 25px;
+  }
+  #divform div h4 span {
+    font-size: 30px;
+  }
+  .resInput {
+    justify-content: center;
+  }
+  .resInput input {
+    width: 45%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .resInput select {
+    width: 45%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
