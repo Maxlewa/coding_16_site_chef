@@ -16115,11 +16115,29 @@ nav img {
     padding-right: 100px;
   }
   #divourstorytitle img {
-    text-align: center;
+    margin: 0 auto;
+    width: 90%;
   }
   #divourmenu {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  #divourmenu img {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #menu div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #menuelement div {
+    padding-bottom: 10px;
+  }
+  .imgmenu {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -16168,6 +16186,13 @@ nav img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  #divmeet {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #divmeet img {
+    width: 90%;
+  }
   #chef img {
     width: 70%;
     display: block;
@@ -16451,9 +16476,15 @@ nav img {
     padding-left: 100px;
     padding-right: 100px;
   }
+  #divbooktable img {
+    width: 90%;
+  }
   #divourblog {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  #divourblog img {
+    width: 90%;
   }
   #blogposts {
     display: flex;
@@ -16465,6 +16496,7 @@ nav img {
     justify-content: center;
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 50px;
   }
   #blogelementone {
     display: flex;
@@ -16492,6 +16524,12 @@ nav img {
   }
   #blogredtwo h4 span {
     font-size: 28px;
+  }
+  #divform {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -16557,6 +16595,16 @@ nav img {
 
 #testimo p {
   font-size: 14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #divtestimonials {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #divtestimonials img {
+    width: 90%;
+  }
 }
 
 #sectioncinq {
@@ -16634,6 +16682,19 @@ nav img {
   background-color: #242424;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #divcontact {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #divcontact img {
+    width: 90%;
+  }
+  #contactred {
+    width: 70%;
+  }
+}
+
 footer {
   padding-top: 45px;
   background-image: url("../img/footer_background.jpg");
@@ -16691,6 +16752,26 @@ footer div div div div a:hover {
 #redfooter {
   height: 80px;
   background-color: #972d2d;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #instalineone {
+    padding-bottom: 14px;
+    justify-content: center;
+  }
+  #instalineone img {
+    padding-right: 20px;
+  }
+  #instalinetwo {
+    padding-bottom: 14px;
+    justify-content: center;
+  }
+  #instalinetwo img {
+    padding-right: 20px;
+  }
+  #footerbuttons {
+    margin-bottom: 40px;
+  }
 }
 
 body {
