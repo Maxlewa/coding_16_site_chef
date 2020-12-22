@@ -15921,6 +15921,7 @@ nav > img {
   padding-right: 25px;
   padding-top: 12px;
   padding-bottom: 12px;
+  border: 0px;
 }
 
 #learnmorebouton {
@@ -15931,6 +15932,7 @@ nav > img {
   padding-right: 25px;
   padding-top: 12px;
   padding-bottom: 12px;
+  border: 0px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -16140,6 +16142,323 @@ nav > img {
   padding-top: 10px;
   color: white;
   text-align: center;
+}
+
+#sectiontrois {
+  background-image: url("../img/main_bg.jpg");
+  max-width: 100vw;
+  padding-bottom: 70px;
+  padding-top: 30px;
+}
+
+#divsectiontrois {
+  position: relative;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+#blacktopleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#blacktopright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#blackbottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#blackbottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#divbooktable {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#divbooktable img {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+#divbooktable h2 {
+  font-family: 'courgette';
+  font-size: 35px;
+}
+
+#divbooktable h2 span {
+  font-size: 45px;
+  color: #972d2d;
+}
+
+#divourblog {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#divourblog img {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+#divourblog h2 {
+  font-family: 'courgette';
+  font-size: 35px;
+}
+
+#divourblog h2 span {
+  font-size: 45px;
+  color: #972d2d;
+}
+
+#divform {
+  background-image: url("../img/book_table_bg.jpg");
+  background-size: cover;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 20px;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#divform div h4 {
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#divform div span {
+  font-size: 35px;
+}
+
+#divbuttonbook button {
+  background-color: #972d2d;
+  color: white;
+  border-radius: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#formulaire #rowone {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#formulaire #rowone #rowonecolone {
+  padding-right: 20px;
+}
+
+#formulaire #rowone #rowonecoltwo {
+  padding-left: 20px;
+}
+
+#formulaire #rowtwo {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#formulaire #rowtwo #rowtwocolone {
+  padding-right: 20px;
+}
+
+#formulaire #rowtwo #rowtwocoltwo {
+  padding-left: 20px;
+}
+
+#formulaire #rowthree {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#formulaire #rowthree #rowthreecolone {
+  padding-right: 20px;
+}
+
+#formulaire #rowthree #rowthreecoltwo {
+  padding-left: 20px;
+}
+
+#formulaire #rowfour {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#formulaire #rowfour #rowfourcolone {
+  padding-right: 20px;
+}
+
+#formulaire #rowfour #rowfourcoltwo {
+  padding-left: 20px;
+}
+
+#inputEmail4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+#inputPassword4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+#inputState {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+#blogposts {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#blogpostone {
+  position: relative;
+  margin-left: 120px;
+}
+
+#blogelementone img {
+  border-radius: 20px;
+  border: #d6d5d5 solid 7px;
+}
+
+#blogelementtwo img {
+  border-radius: 20px;
+  border: #d6d5d5 solid 7px;
+}
+
+#blogredone {
+  position: absolute;
+  background-color: #972d2d;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 20px;
+  border-radius: 20px;
+  top: 240px;
+  left: 60px;
+  right: 60px;
+}
+
+#blogredone h4 {
+  font-size: 20px;
+}
+
+#blogredone h4 span {
+  font-size: 30px;
+}
+
+#blogposttwo {
+  position: relative;
+  margin-right: 120px;
+}
+
+#blogposttwo #blogelementwo img {
+  border-radius: 20px;
+  border: #d6d5d5 solid 7px;
+}
+
+#blogredtwo {
+  position: absolute;
+  background-color: #972d2d;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 20px;
+  border-radius: 20px;
+  top: 240px;
+  left: 60px;
+  right: 60px;
+}
+
+#blogredtwo h4 {
+  font-size: 20px;
+}
+
+#blogredtwo h4 span {
+  font-size: 30px;
+}
+
+#blogtextone {
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#blogtextone h4 {
+  margin-bottom: 20px;
+}
+
+#blogtexttwo {
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#blogtexttwo h4 {
+  margin-bottom: 20px;
+}
+
+#divbuttonknow {
+  padding-bottom: 70px;
+}
+
+#divbuttonknow button {
+  background-color: #972d2d;
+  color: white;
+  border-radius: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #sectionquatre {
