@@ -1,3 +1,5 @@
+// NAV
+
 nav
     text-align: center
     margin-top: 20px
@@ -11,7 +13,10 @@ nav
     text-align: center
     align-items: center
     z-index: 2
+    img
+        height: 80%
 
+// DIV POUR CHAQUE MOT DANS LA NAV
 
 .divlink
     border-top: solid white 1px
@@ -26,21 +31,23 @@ nav
         text-decoration: none
         color: white
 
+// LIENS A GAUCHE DE L'IMAGE
+
 #linksleft
     margin-right: 50px
-
-#linksright
-    margin-left: 50px
 
 #linksleft>.divlink:hover
     background-color: #972d2d
 
+// LIENS A DROITE DE L'IMAGE
+
+#linksright
+    margin-left: 50px
+
 #linksright>.divlink:hover
     background-color: #972d2d
 
-
-nav>img
-    height: 80%
+// CAROUSEL
     
 #carouselresize
     height: 100vh
@@ -59,6 +66,8 @@ nav>img
 #carouselExampleIndicators
     position: relative
     z-index: auto
+
+// HEADER TITRE AU CENTRE
 
 #headercenter
     position: absolute
@@ -79,6 +88,8 @@ nav>img
     h1
         font-size: 55px
 
+// HEADER TITRE AU CENTRE - SPANS
+
 #occasion
     font-size: 75px
 
@@ -91,6 +102,8 @@ nav>img
 
 #remember
     font-size: 75px
+
+// DEUX BOUTONS
 
 #deuxboutons
     margin-top: 30px
@@ -118,8 +131,12 @@ nav>img
     padding-bottom: 12px
     border: 0px
 
+// MEDIA QUERIES
+
+// DESKTOP
 @media screen and (min-width:1024px) and (max-width:1140px)
 
+// IPAD
 @media screen and (min-width:768px) and (max-width:1024px)
     nav
         display: none
@@ -128,7 +145,14 @@ nav>img
             font-size: 30px
             span
                 font-size: 40px
+    #carouselresize
+        height: 30vh
+    #headercenter
+        bottom: 750px
+    #deuxboutons
+        margin-top: 10px
         
-@media screen and (min-width:360px) and (max-width:768px)
+// IPHONE X
+@media screen and (min-width:375px) and (max-width:812px)
 
     
