@@ -16114,6 +16114,13 @@ nav img {
     padding-left: 100px;
     padding-right: 100px;
   }
+  #divourstorytitle img {
+    text-align: center;
+  }
+  #divourmenu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 #sectiondeux {
@@ -16158,6 +16165,14 @@ nav img {
   padding-top: 10px;
   color: white;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #chef img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 #sectiontrois {
@@ -16429,6 +16444,55 @@ nav img {
   border: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #divbooktable {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #divourblog {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #blogposts {
+    display: flex;
+    flex-direction: column;
+  }
+  #blogpostone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #blogelementone {
+    display: flex;
+    flex-direction: column;
+  }
+  #blogposttwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #blogelementtwo {
+    display: flex;
+    flex-direction: column;
+  }
+  #blogredone h4 {
+    font-size: 18px;
+  }
+  #blogredone h4 span {
+    font-size: 28px;
+  }
+  #blogredtwo h4 {
+    font-size: 18px;
+  }
+  #blogredtwo h4 span {
+    font-size: 28px;
+  }
 }
 
 #sectionquatre {
