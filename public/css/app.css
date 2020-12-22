@@ -16858,6 +16858,26 @@ nav img {
   font-size: 14px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  #divtestimonials {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #divtestimonials img {
+    width: 95%;
+  }
+  #clientimg img {
+    width: 90%;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #testimo {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #divtestimonials {
     padding-left: 200px;
@@ -16943,6 +16963,19 @@ nav img {
   background-color: #242424;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  #divcontact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #divcontact img {
+    width: 90%;
+  }
+  #contactred {
+    width: 70%;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #divcontact {
     padding-left: 200px;
@@ -17013,6 +17046,35 @@ footer div div div div a:hover {
 #redfooter {
   height: 80px;
   background-color: #972d2d;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  #instalineone {
+    padding-bottom: 14px;
+    justify-content: center;
+  }
+  #instalineone img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #instalinetwo {
+    padding-bottom: 14px;
+    justify-content: center;
+  }
+  #instalinetwo img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #iconsdiv {
+    justify-content: center;
+  }
+  #instadiv {
+    margin-top: 30px;
+  }
+  #tagsdiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
